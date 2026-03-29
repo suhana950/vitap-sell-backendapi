@@ -1,6 +1,7 @@
 package com.vitapsell.project.model;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
+import java.util.List;
 
 
 @Entity
@@ -72,6 +73,10 @@ public class Listing {
     }
     public void setListingDescription(String listingDescription) {
         this.listingDescription = listingDescription;
+    }
+    public void setImageFilenames(List<String> filenames) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setImageFilenames'");
     }
 
 
